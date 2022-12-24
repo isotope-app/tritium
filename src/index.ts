@@ -9,7 +9,7 @@ program.parse();
 const options = program.opts();
 
 if (options.client) {
-  const client = new Client();
+  Client.run();
 } else if (options.server) {
-  const server = new Server({ port: 3000 });
+  Server.run();
 }

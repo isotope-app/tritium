@@ -18,11 +18,12 @@
     "start:server": "node dist/index.js --server"
   },
   "devDependencies": {
+    "@types/ws": "^8.5.3",
     "rome": "^11.0.0",
     "typescript": "^4.9.4"
   },
   "dependencies": {
     "commander": "^9.4.1",
     "ws": "^8.11.0"
-  }  
+  }
 }
